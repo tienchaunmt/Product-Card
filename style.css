@@ -76,7 +76,6 @@ body {
   display: flex;
   align-items: center;
   margin: 8px 0;
-  cursor: pointer;
 }
 
 .card__size span {
@@ -153,4 +152,8 @@ body {
 
 .card:hover .card__size {
   margin-top: -40px;
+}
+
+.card__size span, .card__color__black, .card__color__green, .card__color__red {
+  cursor: pointer;
 }
